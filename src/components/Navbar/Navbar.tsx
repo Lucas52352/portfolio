@@ -6,10 +6,8 @@ const Navbar = () => {
     <div className="navBarContainer">
       <h1 className="title">{"</LR>"}</h1>
       <div className="routeContainer">
+      
         <Link to="/">
-          <button className="link">Home</button>
-        </Link>
-        <Link to="/about">
           <button className="link">About Me</button>
         </Link>
         <Link to="/projects">

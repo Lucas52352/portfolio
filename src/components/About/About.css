@@ -1,0 +1,110 @@
+.maxContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 45px;
+}
+
+p {
+    display: flex;
+    text-justify: distribute;
+    font-size: 25px;
+}
+
+.cvContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.curriculum {
+    height: 200px;
+    width: 200px;
+}
+
+.certificateContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.certificateImg {
+    height: 320px;
+    margin: 35px;
+}
+
+.aboutText {
+    display: flex;
+    font-size: 25px;
+    margin: 70px;
+    text-align: center;
+}
+
+.profile {
+    animation: pulsate 1.5s reverse alternate;  
+    border: 0.2rem solid #fff;
+    border-radius: 100%;
+    width: 435px;
+    height: 435px;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe; 
+  }
+    
+  h1 {
+    margin: 45px;
+    animation: pulsate 1.5s reverse alternate;  
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe; 
+  }
+  
+  @keyframes pulsate {
+      
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #bc13fe,
+        0 0 80px #bc13fe,
+        0 0 90px #bc13fe,
+        0 0 100px #bc13fe,
+        0 0 150px #bc13fe;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 6px #fff,
+      0 0 10px #bc13fe,
+      0 0 45px #bc13fe,
+      0 0 55px #bc13fe,
+      0 0 70px #bc13fe,
+      0 0 80px #bc13fe;
+  
+  }
+}
