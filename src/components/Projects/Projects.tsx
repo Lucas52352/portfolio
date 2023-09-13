@@ -1,8 +1,13 @@
+import poke from '../../images/pokeapi.png'
+import wiseWallet from '../../images/wisewallet.jpeg'
 
 const Projects = () => {
   return (
     <div>
-      <h1>Projects</h1>
+      <h1>My Projects</h1>
+
+    <a href=''></a>
+
     </div>
   )
 }

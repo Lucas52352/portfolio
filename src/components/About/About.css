@@ -25,12 +25,25 @@ p {
     justify-content: center;
     align-items: center;
     font-size: 25px;
+    transition: .6s;
 }
 
-.curriculum {
-    height: 200px;
-    width: 200px;
+.cvContainer:hover{
+    animation: pulsate 1.5s reverse alternate;  
+    border-radius: 15px;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe; 
 }
+
+    .curriculum {
+        height: 200px;
+        width: 200px;
+        filter: invert()
+    }
 
 .certificateContainer {
     display: flex;
@@ -107,4 +120,34 @@ p {
       0 0 80px #bc13fe;
   
   }
+}
+
+.techs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: solid rgba(255, 0, 0, 0) 5px;
+    padding: 15px;
+    transition: 1.2s;
+}
+
+.techImg {
+    height: 100px;
+    width: 100px
+}
+
+.techs:hover{
+    cursor: pointer;
+        animation: pulsate 1.5s reverse alternate;  
+        border: 5px solid #fff;
+        border-radius: 2rem;
+        box-shadow: 0 0 .2rem #fff,
+                  0 0 .2rem #fff,
+                  0 0 2rem #bc13fe,
+                  0 0 0.8rem #bc13fe,
+                  0 0 2.8rem #bc13fe,
+                  inset 0 0 1.3rem #bc13fe; 
 }
