@@ -1,8 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "portfolio.github.io",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://lucas52352.github.io/portfolio",
+  "homepage": "https://lucas52352.github.io/portfolio.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
