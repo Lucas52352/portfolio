@@ -1,0 +1,92 @@
+.projectContainer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectContainer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.project1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 45px;
+    padding: 25px;
+    transition: .7s;
+}
+
+.project1:hover {
+    animation: pulsate 1.5s reverse alternate;  
+    border-radius: 15px;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+}
+
+.project2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    margin: 45px;
+    padding: 25px;
+    transition: .7s;
+}
+
+.project2:hover {
+    animation: pulsate 1.5s reverse alternate;  
+    border-radius: 15px;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+}
+
+.projectImg {
+    height: 250px;
+    width: 500px;
+}
+
+.prLink {
+    margin: 25px;
+    padding: 12px;
+    transition: .7s;
+    border-radius: 15px;
+}
+
+.prLink:hover {
+    animation: pulsate 1.5s reverse alternate;  
+    border-radius: 15px;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #4213fe,
+              0 0 0.8rem #4213fe,
+              0 0 2.8rem #4213fe,
+              inset 0 0 1.3rem #4213fe;
+}
+
+h1 {
+    margin: 45px;
+    animation: pulsate 1.5s reverse alternate;  
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe; 
+  }

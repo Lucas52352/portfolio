@@ -127,11 +127,14 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 145px;
+    height: 195px;
     margin-left: 25px;
     margin-right: 25px;
-    border: solid rgba(255, 0, 0, 0) 5px;
+    border: solid rgba(255, 0, 0, 0) 1.5px;
+    border-radius: 2rem;
     padding: 15px;
-    transition: 1.2s;
+    transition: .4s;
 }
 
 .techImg {
@@ -142,7 +145,7 @@ p {
 .techs:hover{
     cursor: pointer;
         animation: pulsate 1.5s reverse alternate;  
-        border: 5px solid #fff;
+        border: 1.5px solid #fff;
         border-radius: 2rem;
         box-shadow: 0 0 .2rem #fff,
                   0 0 .2rem #fff,
