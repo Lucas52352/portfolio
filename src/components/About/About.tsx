@@ -56,14 +56,7 @@ const About = () => {
         </a>
       </div>
       <p className="aboutText">My Tech Stack</p>
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'row',
-          flexWrap: 'wrap',
-          margin: 15,
-        }}
-      >
+      <div className='techContainer'>
         <div className="techs">
           <img className="techImg" src={html} alt="" />
           <p>HTML5</p>
@@ -89,14 +82,7 @@ const About = () => {
           <p>React JS</p>
         </div>
       </div>
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'row',
-          flexWrap: 'wrap',
-          margin: 15,
-        }}
-      >
+      <div className='techContainer'>
         <div className="techs">
           <img className="techImg" src={redux} alt="" />
           <p>Redux</p>
