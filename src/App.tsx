@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <Router
-    // basename='/portfolio'
+    basename='/portfolio'
     >
     <Navbar />
       <Routes>
