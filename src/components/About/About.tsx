@@ -1,4 +1,4 @@
-import profile from '../../images/pfp.png';
+import profile from '../../images/PFP.png';
 import cv from '../../assets/Lucas+Rius+CV.pdf';
 import resume from '../../images/resume.png';
 import henry from '../../images/henry.jpeg';

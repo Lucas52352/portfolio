@@ -9,7 +9,9 @@ function App() {
 
   return (
     <>
-    <Router basename='/portfolio'>
+    <Router
+    // basename='/portfolio'
+    >
     <Navbar />
       <Routes>
 
