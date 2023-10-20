@@ -9,17 +9,17 @@ function App() {
 
   return (
     <>
-    <Router
-    basename='/portfolio'
-    >
-    <Navbar />
-      <Routes>
+      <Router
+        basename='/portfolio'
+      >
+        <Navbar />
+        <Routes>
 
-      <Route path='/' element={<About />} />
-      <Route path='/projects' element={<Projects />} />
-      <Route path='/contact' element={<Contact />} />
-      </Routes>
-    </Router>
+          <Route path='/' element={<About />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
+      </Router>
     </>
   );
 }
